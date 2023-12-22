@@ -1,13 +1,11 @@
 {
   "name": "webpack-navigation-app",
   "version": "1.0.0",
-  "description": "Webpack Navigation App",
-  "homepage": "https://MateuszOriol.github.io/webpack-navigation-app",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +15,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.23.3",
-    "gh-pages": "^6.1.0"
+    "@babel/preset-react": "^7.23.3"
   }
 }
